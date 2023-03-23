@@ -42,9 +42,6 @@ class LoginActivity : AppCompatActivity() {
             }
             LoginFirebase(email,password)
 
-            val intent = Intent(this,MainActivity::class.java)
-            startActivity(intent)
-
         }
 
         binding.loginRegister.setOnClickListener {
